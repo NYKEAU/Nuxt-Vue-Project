@@ -5,7 +5,7 @@ query allReviews {
       title
       note
       date
-      content
+      content(markdown: true)
       author
     }
   }
