@@ -1,12 +1,12 @@
 export default gql`
+query footer {
   homepage {
-    footer {
+    menus {
+      menu
+      links {
         title
-        links {
-            textLink
-            link {
-                    id
-            }
-        }
+        url
+      }
     }
+  }
 }`;

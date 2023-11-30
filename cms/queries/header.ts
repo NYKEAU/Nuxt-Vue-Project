@@ -1,7 +1,7 @@
 export default gql`
-  homepage {
+query topHeader {
     header {
-        description
         title
+        description(markdown: true)
     }
 }`;
