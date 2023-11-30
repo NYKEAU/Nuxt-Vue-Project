@@ -1,6 +1,7 @@
 <template>
     <div>
         <TopHeader />
+        <Articles />
         <Reviews />
         <Footer />
     </div>
